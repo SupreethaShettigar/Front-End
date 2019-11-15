@@ -1,0 +1,178 @@
+body
+{
+  margin:0;
+  padding:0;
+  background:url(admin5.jpg);
+  background-size:cover;
+  font-family:serif;
+  
+  }
+  .heading
+  {
+	 position:absolute;
+	 width:400px;
+	 height:3px;
+	 padding:40px 20px;
+	 margin-left:915px;
+	 margin-top:70px;
+	 box-sizing:border-box;
+	 color:white;
+	 font-size:28px;
+	 font-style:italic;
+	 font-family:serif;
+	 background:rgba(255,255,255,0);
+	 background-size:cover;
+	 
+  }
+  .loginbox
+ {
+	 position:absolute;
+	 width:250px;
+	 height:320px;
+	 padding:20px 20px;
+	 margin-left:520px;
+	 margin-top:170px;
+	 box-sizing:border-box;
+	 background:rgba(255,255,255,0.8);
+	 background-size:cover;
+	 box-shadow:0 8px 16px 0 rgba(0,0,0,0.8);
+ }
+.loginbox1{
+	position:absolute;
+	 width:400px;
+	 height:380px;
+	 margin-left:700px;
+	 margin-top:140px;
+	 box-sizing:border-box;
+	 background:url(home1.jpg);
+	 background-size:cover;
+	 box-shadow:0 8px 16px 0 rgba(0,0,0,0.8);
+}
+ 
+
+.loginbox2{
+	position:absolute;
+	 width:750px;
+	 height:470px;
+	 margin-left:450px;
+	 margin-top:100px;
+	 box-sizing:border-box;
+	 background:#2b2625;
+	 background-size:cover;
+	 box-shadow:0 8px 16px 0 rgba(0,0,0,0.8);
+}
+
+.loginbox3{
+	position:absolute;
+	 width:800px;
+	 height:570px;
+	 margin-left:350px;
+	 margin-top:50px;
+	 box-sizing:border-box;
+	 background:#ff9800;
+	 background-size:cover;
+	 box-shadow:0 8px 16px 0 rgba(0,0,0,0.8);
+}
+
+.banner1{
+	position:absolute;
+	 width:100px;
+	 height:500px;
+	 margin-left:80px;
+	 margin-top:80px;
+	 box-sizing:border-box;
+	 font-size:50px;
+	 font-weight:bold;
+	 color:#2b2625;
+	 background:#ff9800;
+	 background-size:cover;
+	 box-shadow:0 8px 16px 0 rgba(0,0,0,0.8);
+}
+.banner2{
+	position:absolute;
+	 width:120px;
+	 height:520px;
+	 margin-left:70px;
+	 margin-top:70px;
+	 box-sizing:border-box;
+	 background:rgba(255,255,255,0.1);
+	 box-shadow:0 8px 16px 0 rgba(0,0,0,0.8);
+}
+.banner3{
+	position:absolute;
+	 width:140px;
+	 height:540px;
+	 margin-left:60px;
+	 margin-top:60px;
+	 box-sizing:border-box;
+	 background:rgba(255,255,255,.1);
+	 box-shadow:0 8px 16px 0 rgba(0,0,0,0.8);
+}
+
+ h2
+ {
+	 margin:0;
+	 padding:0 0 20px;
+	 color:#2b2625;
+	 text-align:center;
+ }
+ 
+
+.loginbox input[type="text"],
+.loginbox input[type="password"]
+{
+	border:none;
+	border-bottom:2px solid #2b2625;
+	background:transparent;
+	outline:none;
+	height:20px;
+	color:black;
+	font-size:15px;
+}
+::placeholder
+{
+	color:gray;
+	text-align:center;
+	
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive,.loginbox,.loginbox1,.loginbox2,.loginbox3,.banner1,.banner2,.banner3 {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive,.loginbox,.loginbox1,.loginbox2,.loginbox3,.banner1,.banner2,.banner3  {
+        width: 100%;
+    }
+}
+
+.responsive {
+   
+    float: right;
+    width: 100%;
+	height:100%;
+}
+
+#btnsignin{
+	
+	width:200px;
+	height:40px;
+	background:#ff9800;
+	border:none;
+	color:#2b2625;
+	font-size:20px;
+	font-weight:600;
+}
+#btnsignup{
+	
+	width:200px;
+	height:40px;
+	background:#2b2625;
+	border:none;
+	color:#ff9800;
+	font-size:20px;
+	font-weight:600;
+}
