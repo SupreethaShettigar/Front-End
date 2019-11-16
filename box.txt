@@ -1,0 +1,187 @@
+box images
+
+
+br>
+<div class="responsive2">
+        <div class="gallery2">
+          <a target="_blank">
+            <img src="assets/ck6.jpg" alt="Cinque Terre">
+          </a>
+          <div class="desc">nuts</div>
+        </div>
+      </div>
+      
+      <div class="responsive2">
+        <div class="gallery2">
+          <a target="_blank" >
+            <img src="/assets/ck2.jpg" alt="Cinque Terre">
+          </a>
+          <div class="desc">stobery</div>
+        </div>
+      </div>
+      
+      <div class="responsive2">
+        <div class="gallery2">
+          <a target="_blank" >
+            <img src="assets/ck1.jpg" alt="Cinque Terre">
+          </a>
+          <div class="desc">banana</div>
+        </div>
+      </div>
+      
+      <!----------------------------------------------------------------------------------------------------------------------------------------->
+       <div class="responsive3">
+        <div class="gallery3">
+          <a target="_blank" >
+            <img src="assets/ck5.jpg" alt="Cinque Terre">
+          </a>
+          <div class="desc">Tomatto</div>
+        </div>
+      </div>
+      
+      <div class="responsive3">
+        <div class="gallery3">
+          <a target="_blank" >
+            <img src="assets/ck3.jpg" alt="Cinque Terre">
+          </a>
+          <div class="desc">mango</div>
+        </div>
+      </div>
+      
+      <div class="responsive3">
+        <div class="gallery3">
+          <a target="_blank" >
+            <img src="assets/ck4.jpg" alt="Cinque Terre">
+          </a>
+          <div class="desc">finaple</div>
+        </div>
+      </div>br>
+<div class="responsive2">
+        <div class="gallery2">
+          <a target="_blank">
+            <img src="assets/ck6.jpg" alt="Cinque Terre">
+          </a>
+          <div class="desc">nuts</div>
+        </div>
+      </div>
+      
+      <div class="responsive2">
+        <div class="gallery2">
+          <a target="_blank" >
+            <img src="/assets/ck2.jpg" alt="Cinque Terre">
+          </a>
+          <div class="desc">stobery</div>
+        </div>
+      </div>
+      
+      <div class="responsive2">
+        <div class="gallery2">
+          <a target="_blank" >
+            <img src="assets/ck1.jpg" alt="Cinque Terre">
+          </a>
+          <div class="desc">banana</div>
+        </div>
+      </div>
+      
+      <!----------------------------------------------------------------------------------------------------------------------------------------->
+       <div class="responsive3">
+        <div class="gallery3">
+          <a target="_blank" >
+            <img src="assets/ck5.jpg" alt="Cinque Terre">
+          </a>
+          <div class="desc">Tomatto</div>
+        </div>
+      </div>
+      
+      <div class="responsive3">
+        <div class="gallery3">
+          <a target="_blank" >
+            <img src="assets/ck3.jpg" alt="Cinque Terre">
+          </a>
+          <div class="desc">mango</div>
+        </div>
+      </div>
+      
+      <div class="responsive3">
+        <div class="gallery3">
+          <a target="_blank" >
+            <img src="assets/ck4.jpg" alt="Cinque Terre">
+          </a>
+          <div class="desc">finaple</div>
+        </div>
+      </div>
+	  
+	  
+	  ----------------csss-----------
+	  desc {
+    padding: 15px;
+    text-align: center;
+	font-style:bold;
+	color: #2b2625;
+	font-size:120%;
+}
+.gallery2 img:hover { box-shadow:0 8px 16px 0 rgba(0,0,0,1);}
+.gallery2 img {
+	position:relative;
+	float: left;
+    width: 95%;
+    height: 70%;
+	border:5px solid #2b2625;
+}
+
+.responsive2 {
+   
+    float: left;
+    width: 15%;
+	height:22%;
+	margin-left:5%;
+	background:white;
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.8);
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive2 {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive2 {
+        width: 100%;
+    }
+}
+
+.gallery3 img:hover { box-shadow:0 8px 16px 0 rgba(0,0,0,1);}
+.gallery3 img {
+	position:relative;
+	float: left;
+    width: 95%;
+    height: 70%;
+	border:5px solid #2b2625;
+}
+
+
+.responsive3 {
+   
+    float: left;
+    width: 15%;
+	height:22%;
+	margin-left:5%;
+	margin-top:2%;
+	background:white;
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.8);
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive3 {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive3 {
+        width: 100%;
+    }
+}
